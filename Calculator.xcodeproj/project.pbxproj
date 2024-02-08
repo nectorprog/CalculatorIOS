@@ -13,6 +13,7 @@
 		CE6389A92B75262200DBD734 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6389A82B75262200DBD734 /* MainView.swift */; };
 		CE6389AB2B75265900DBD734 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6389AA2B75265900DBD734 /* Model.swift */; };
 		CE6389AE2B7530C900DBD734 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6389AD2B7530C900DBD734 /* Extension.swift */; };
+		CE6389B32B755D6500DBD734 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6389B22B755D6500DBD734 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		CE6389A82B75262200DBD734 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CE6389AA2B75265900DBD734 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		CE6389AD2B7530C900DBD734 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		CE6389B22B755D6500DBD734 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		CE6389AF2B755C5000DBD734 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				CE6389B22B755D6500DBD734 /* ViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6389B32B755D6500DBD734 /* ViewModel.swift in Sources */,
 				CE6389AB2B75265900DBD734 /* Model.swift in Sources */,
 				CE6389A92B75262200DBD734 /* MainView.swift in Sources */,
 				CE6389982B751F8300DBD734 /* CalculatorApp.swift in Sources */,
