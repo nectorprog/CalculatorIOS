@@ -57,7 +57,7 @@
 			children = (
 				CE6389972B751F8300DBD734 /* CalculatorApp.swift */,
 				CE6389A72B75260500DBD734 /* Views */,
-				CE6389A62B7525F000DBD734 /* ViewGroup */,
+				CE6389AF2B755C5000DBD734 /* ViewModel */,
 				CE6389A52B7525DF00DBD734 /* Model */,
 				CE6389AC2B7530AE00DBD734 /* Extension */,
 				CE63899B2B751F8500DBD734 /* Assets.xcassets */,
@@ -82,13 +82,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		CE6389A62B7525F000DBD734 /* ViewGroup */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewGroup;
-			sourceTree = "<group>";
-		};
 		CE6389A72B75260500DBD734 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +96,13 @@
 				CE6389AD2B7530C900DBD734 /* Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		CE6389AF2B755C5000DBD734 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
