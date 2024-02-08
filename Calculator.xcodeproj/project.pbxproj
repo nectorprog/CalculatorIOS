@@ -12,6 +12,7 @@
 		CE63899F2B751F8500DBD734 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE63899E2B751F8500DBD734 /* Preview Assets.xcassets */; };
 		CE6389A92B75262200DBD734 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6389A82B75262200DBD734 /* MainView.swift */; };
 		CE6389AB2B75265900DBD734 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6389AA2B75265900DBD734 /* Model.swift */; };
+		CE6389AE2B7530C900DBD734 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6389AD2B7530C900DBD734 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		CE63899E2B751F8500DBD734 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE6389A82B75262200DBD734 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CE6389AA2B75265900DBD734 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CE6389AD2B7530C900DBD734 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				CE6389A72B75260500DBD734 /* Views */,
 				CE6389A62B7525F000DBD734 /* ViewGroup */,
 				CE6389A52B7525DF00DBD734 /* Model */,
+				CE6389AC2B7530AE00DBD734 /* Extension */,
 				CE63899B2B751F8500DBD734 /* Assets.xcassets */,
 				CE63899D2B751F8500DBD734 /* Preview Content */,
 			);
@@ -92,6 +95,14 @@
 				CE6389A82B75262200DBD734 /* MainView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		CE6389AC2B7530AE00DBD734 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE6389AD2B7530C900DBD734 /* Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +178,7 @@
 				CE6389AB2B75265900DBD734 /* Model.swift in Sources */,
 				CE6389A92B75262200DBD734 /* MainView.swift in Sources */,
 				CE6389982B751F8300DBD734 /* CalculatorApp.swift in Sources */,
+				CE6389AE2B7530C900DBD734 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
